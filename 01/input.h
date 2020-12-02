@@ -1,7 +1,7 @@
 #ifndef __input_h__
 #define __input_h__
 
-int input[] = {
+const int input[] = {
 	1939,
 	1585,
 	1712,
