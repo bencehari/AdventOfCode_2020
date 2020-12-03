@@ -18,7 +18,7 @@ void a(int len) {
 	for (int i = 0; i < len - 1; i++) {
 		for (int j = i + 1; j < len; j++) {
 			if (input[i] + input[j] == 2020) {
-				printf("%d, %d -> %d\n", input[i], input[j], (input[i] * input[j]));
+				printf("%d, %d -> %d\n------------\n", input[i], input[j], (input[i] * input[j]));
 				done = 1;
 				break;
 			}

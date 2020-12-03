@@ -47,7 +47,7 @@ void a(int len) {
 		}
 	}
 
-	printf("0. Valid count: %d\n", valid);
+	printf("0. Valid count: %d\n------------\n", valid);
 }
 
 void b(int len) {
