@@ -93,7 +93,7 @@ void b(int len) {
 	[x] byr (Birth Year) - four digits; at least 1920 and at most 2002.
 	[x] iyr (Issue Year) - four digits; at least 2010 and at most 2020.
 	[x] eyr (Expiration Year) - four digits; at least 2020 and at most 2030.
-	[ ] hgt (Height) - a number followed by either cm or in:
+	[x] hgt (Height) - a number followed by either cm or in:
 		[ ] If cm, the number must be at least 150 and at most 193.
 		[ ] If in, the number must be at least 59 and at most 76.
 	[x] hcl (Hair Color) - a # followed by exactly six characters 0-9 or a-f.
@@ -202,5 +202,4 @@ next:
 	}
 
 	printf("Valid passports: %d\n-----------\n", valid);
-	
 }
