@@ -21,7 +21,7 @@ void a(int len) {
 	for (int i = 0; i < len; i++) {
 		int l = strlen(input[i]);
 		char str[l + 1];
-		memcpy(str, input[i], l);
+		memcpy(str, input[i], l + 1);
 
 		char* token = strtok(str, "-");
 		int min = atoi(token);
@@ -57,7 +57,7 @@ void b(int len) {
 	for (int i = 0; i < len; i++) {
 		int l = strlen(input[i]);
 		char str[l + 1];
-		memcpy(str, input[i], l);
+		memcpy(str, input[i], l + 1);
 
 		char* token = strtok(str, "-");
 		int min = atoi(token) - 1;
